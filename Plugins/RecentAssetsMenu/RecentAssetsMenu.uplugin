@@ -13,18 +13,13 @@
 	"CanContainContent": false,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": true,
+	"Installed": false,
 	"Modules": [
 		{
 			"Name": "RecentAssetsMenu",
 			"Type": "EditorNoCommandlet",
 			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [
-				"Win64",
-				"Win32",
-				"Mac",
-				"Linux"
-			]
+			"BlacklistPlatforms": []
 		}
 	]
 }
